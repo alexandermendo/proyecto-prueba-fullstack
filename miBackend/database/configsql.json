@@ -1,0 +1,12 @@
+{
+  "server": "DESKTOP-0MTDOVI",
+  "authentication": {
+    "type": "default", "options": { "userName": "sa", "password": "123456" 
+    }
+  }, 
+  "options": {
+    "encrypt": false,
+    "database": "PruebaTecnica182023"  
+  },
+  "port": 1433
+}
