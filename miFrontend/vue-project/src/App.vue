@@ -6,7 +6,7 @@ const employees = ref([]);
 // Función para obtener los empleados desde el backend
 async function getEmployees() {
   try {
-    const response = await fetch('http://localhost:3002/employees/'); // Reemplaza '/ruta-del-backend' con la URL real del endpoint del backend donde obtienes los empleados
+    const response = await fetch('http://localhost:3002/employees/employee'); // Reemplaza '/ruta-del-backend' con la URL real del endpoint del backend donde obtienes los empleados
     const data = await response.json();
     employees.value = data.data;
   } catch (error) {
